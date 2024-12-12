@@ -7,8 +7,10 @@ import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Header />
-    <Card />
+    <div className="centro">
+      <Header />
+      <Card />
+    </div>
     <Footer />
   </StrictMode>
 );
